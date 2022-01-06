@@ -1,0 +1,176 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 600px;
+  height: 250px;
+  flex: none;
+}
+  
+button {
+  background-color: #3882F6;
+  width: 175px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #E5E7EB;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+  padding: 18px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  background-color: #1F2937;
+  color: white;
+  font-size: 24px;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.hero {
+  display: flex;
+  background-color: #1F2937;
+  height: 400px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 200px;
+}
+
+.subhero {
+  width: 650px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.hero-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.info {
+  padding: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 40px;
+}
+
+.boxy {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.box2{
+  padding: 25px;
+  flex: none;
+  height: 100px;
+  width: 100px;
+  border: 5px solid #3882F6;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.quote {
+  padding: 0px 200px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: #E5E7EB;
+  font-size: 30px;
+  color: #1F2937;
+}
+
+.thor {
+  align-self: flex-end;
+}
+
+.action {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  height: 100px;
+  width: 800px;
+  color:#E5E7EB;
+}
+
+.bigtext {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.action button {
+  border: 2px solid white;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
